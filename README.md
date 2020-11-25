@@ -7,6 +7,7 @@
 ### add nginx
 - add nginx files
 ### add docker
-- add Dockerfile
+- add Dockerfile.dev
 - add docker-compose.yml
 ### check docker and nginx
+- check default page of nginx
