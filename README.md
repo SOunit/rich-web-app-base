@@ -10,4 +10,5 @@
 - add Dockerfile.dev
 - add docker-compose.yml
 ### check docker and nginx
+- docker-compose up
 - check default page of nginx
