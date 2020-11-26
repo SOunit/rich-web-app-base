@@ -33,3 +33,12 @@ setup steps done is in "setup steps".
 ### check hot reload of react
 - edit app.js
 - check auto reload
+### add node
+- create node file
+- add docker files
+### update nginx for node
+- set location
+### check node from nginx
+- docker-compose up --build
+- visit localhost/node
+- check node message
