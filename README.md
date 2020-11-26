@@ -6,7 +6,7 @@ this is a base setup for develop rich web app.
 setup steps done is in "setup steps".
 
 ## setup steps
-## Nginx
+## Docker, Nginx
 ### npm init
 - clone project
 - npm init
