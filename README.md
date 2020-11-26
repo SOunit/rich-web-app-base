@@ -6,6 +6,7 @@ this is a base setup for develop rich web app.
 setup steps done is in "setup steps".
 
 ## setup steps
+## Nginx
 ### npm init
 - clone project
 - npm init
@@ -18,6 +19,7 @@ setup steps done is in "setup steps".
 - docker-compose up
 - visit localhost
 - check default page of nginx
+## React
 ### add react
 - create-react-app client
 - add docker files
@@ -33,6 +35,7 @@ setup steps done is in "setup steps".
 ### check hot reload of react
 - edit app.js
 - check auto reload
+## Node
 ### add node
 - create node file
 - add docker files
