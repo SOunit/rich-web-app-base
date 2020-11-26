@@ -27,8 +27,9 @@ setup steps done is in "setup steps".
 - docker-compose up --build
 - visit localhost
 - check default page of react
-### add reload setting to react
-- add reload setting to docker-compose.yml
+### add reload setting of react to docker-compose.yml
+- add volume setting
+- add reload setting
 ### check hot reload of react
 - edit app.js
 - check auto reload
