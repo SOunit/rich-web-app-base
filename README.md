@@ -1,4 +1,9 @@
 # rich-web-app-base
+this is a base setup for develop rich web app.
+- nginx assign locations
+- hot reload for both react and node
+
+setup steps done is in "setup steps".
 
 ## setup steps
 ### npm init
