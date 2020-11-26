@@ -45,7 +45,7 @@ setup steps done is in "setup steps".
 - docker-compose up --build
 - visit localhost/node/
 - check node message
-### add node to react
+### add node request to react
 - npm install --save axios
 - add axios node request in react app
 ### check node message in react
