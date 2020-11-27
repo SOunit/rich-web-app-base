@@ -57,9 +57,9 @@ setup steps done is in "setup steps".
 - update node message
 - refresh react page
 ## mongo db
-### add mongo db
+### add mongo db to docker
 - add mongo db to docker-compose.yml
-### get message from mongo db
+### check mongo db connection in console
 - add mongo access to node
 - check mongo connect message in console
 
