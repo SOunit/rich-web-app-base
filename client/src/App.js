@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NodeMessage from './containers/NodeMessage/NodeMessage';
+import MongoMessage from './containers/MongoMessage/MongoMessage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <NodeMessage />
+        <MongoMessage />
       </header>
     </div>
   );
