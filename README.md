@@ -51,3 +51,8 @@ setup steps done is in "setup steps".
 ### check node message in react
 - visit localhost
 - check node message in react
+### add nodemon to node
+- update package.json, nodemon -L
+### check nodemon
+- update node message
+- refresh react page
