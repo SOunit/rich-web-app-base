@@ -4,6 +4,9 @@ services:
     build:
       dockerfile: Dockerfile.dev
       context: ./node
+    volumes:
+      - /app/node_modules
+      - ./node:/app
   client:
     build:
       dockerfile: Dockerfile.dev

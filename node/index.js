@@ -2,9 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/message', (req, res, next) => {
-  res.send('hello from node');
+  res.send('hello from node, nodemon!');
 });
-
-console.log('node works!');
 
 app.listen(5000);
