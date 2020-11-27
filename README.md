@@ -59,7 +59,7 @@ setup steps done is in "setup steps".
 ## mongo db
 ### add mongo db
 - add mongo db to docker-compose.yml
-- check mongo db server run
 ### get message from mongo db
 - add mongo access to node
-- check mongo message in react
+- check mongo connect message in console
+
