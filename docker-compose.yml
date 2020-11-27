@@ -1,12 +1,9 @@
 version: '3'
 services:
-  nginx:
-    restart: always
+  node:
     build:
       dockerfile: Dockerfile.dev
-      context: ./nginx
-    ports:
-      - 80:80
+      context: ./node
   client:
     build:
       dockerfile: Dockerfile.dev
@@ -17,3 +14,10 @@ services:
     # polling setting for Docker. activate auto reload when file change.
     environment:
       - CHOKIDAR_USEPOLLING=true
+  nginx:
+    restart: always
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./nginx
+    ports:
+      - 80:80

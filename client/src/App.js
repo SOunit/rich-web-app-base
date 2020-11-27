@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import NodeMessage from './containers/NodeMessage/NodeMessage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <NodeMessage />
       </header>
     </div>
   );
