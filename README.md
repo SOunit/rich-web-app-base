@@ -62,4 +62,8 @@ setup steps done is in "setup steps".
 ### check mongo db connection in console
 - add mongo access to node
 - check mongo connect message in console
-
+### check mongo message in react
+- add mongo request in node
+- add mongo message in react
+- visit localhost
+- check mongo message from mongo in react
